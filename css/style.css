@@ -1,0 +1,140 @@
+body {
+    font-family: Roboto;
+    color:  #2A2B2E;
+}
+.img-head {
+        background-image: url(../img/gradient-bg.svg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 655px;
+}
+.nav-item a,.nav-item a:hover,.nav-item a:focus{
+    color: #fff;
+    font-size: 16px;  
+    line-height: 19px; 
+}
+.text-head {
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 900;
+    color: #fff;  
+}
+span {
+    color: #8BB55B;
+}
+
+@media (max-width: 768px) {
+    .watch {
+  display: none;
+    }
+}
+.watch {
+    height: 426px;
+    width: 426px;
+}
+
+.gps-text {
+    font-size: 16px;
+    font-weight:500px;
+    color: #fff;
+}
+.text-column {
+    width: 407px;
+    height: 112px;
+    color: #2A2B2E;
+    left: 162px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+
+.upper-heading {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+}
+.inner-heading {
+    color: #1F6234E5;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 30px;
+}
+.inner-para {
+    font-size: 16px;
+    line-height: 30px; 
+    width: 407px;
+}
+@media (max-width: 768px)
+{
+.inner-para {
+    width: 246px;
+  }
+}
+
+.img-watch-1 {
+height: 426px;
+width: 426px;
+text-align: left;
+position: absolute;
+right: 729px;
+top: 309px;
+}
+@media (max-width: 768px)
+{
+.img-watch-1{
+   display: none;
+  }
+}
+.img-asset {
+    height:373px;
+    width: 322px;
+}
+.outer-footer {
+   background-image: url(../img/round.png);
+   background-repeat: no-repeat;
+   min-height: 370px;
+   position: relative;
+   color: #FFFFFF;
+   font-weight: 900;
+   font-size: 56px;
+}
+.footer-menu {  
+   font-size: 16px;
+   font-weight: 900;
+   line-height: 30px;
+}
+.footer-text {  
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 31px;
+}
+.form-control {
+    width: 96%;
+    outline: 0;
+    border-width: 0 0 1px;
+}
+ .btn-circle {
+     background-color: #D3541C;
+     border: 0;
+     border-radius: 50%;
+     height: 90%;
+     width: 103%;
+ }
+@media (max-width:1399px){
+    .outer-footer {
+        background-image: url(../img/foot_mob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 370px;
+        position: relative;
+        
+    }
+}
+@media (max-width:767px){
+    .small-text {
+        margin-top: 748px;
+    
+    }
+}
